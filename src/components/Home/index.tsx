@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import imgHome from "../../assets/img/GAMER.svg";
 
 import { HomeContainer, HomeButton, HomeImg, HomeP, HomeH1 } from "./styles";
@@ -12,7 +14,9 @@ const Home = () => {
           favoritos.
         </HomeH1>
         <HomeP>Clique no botão abaixo e veja nossa coleção de jogos !</HomeP>
-        <HomeButton>Ver os Jogos</HomeButton>
+        <Link to="/games">
+          <HomeButton>Ver os Jogos</HomeButton>
+        </Link>
       </div>
       <HomeImg src={imgHome} alt="imagem da tela inicial de uma pessoa gamer" />
     </HomeContainer>

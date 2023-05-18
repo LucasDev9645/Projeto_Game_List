@@ -1,13 +1,21 @@
 import imgHome from "../../assets/img/GAMER.svg";
 
+import { HomeContainer, HomeButton, HomeImg, HomeP, HomeH1 } from "./styles";
+
 const Home = () => {
   return (
-    <div>
-      <h1>Veja aqui seus jogos favoritos.</h1>
-      <p>Clique no botão abaixo e veja nossa coleção de jogos!</p>
-      <img src={imgHome} alt="" />
-      <button>Ver os Jogos</button>
-    </div>
+    <HomeContainer>
+      <div>
+        <HomeH1>
+          Veja aqui seus jogos
+          <br />
+          favoritos.
+        </HomeH1>
+        <HomeP>Clique no botão abaixo e veja nossa coleção de jogos !</HomeP>
+        <HomeButton>Ver os Jogos</HomeButton>
+      </div>
+      <HomeImg src={imgHome} alt="imagem da tela inicial de uma pessoa gamer" />
+    </HomeContainer>
   );
 };
 

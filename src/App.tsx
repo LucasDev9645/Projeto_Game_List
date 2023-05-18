@@ -5,21 +5,21 @@ import GameList from "./components/GameList";
 import GameDetails from "./components/GameDetails";
 import Header from "./components/Header";
 
-import GlobalStyle, { Container } from "./styles";
+import GlobalStyles, { ContainerStyles } from "./styles";
 
 const App = () => {
   return (
     <>
-      <GlobalStyle />
+      <GlobalStyles />
       <BrowserRouter>
         <Header />
-        <Container>
+        <ContainerStyles>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="games" element={<GameList />} />
             <Route path="game-details/:gameId" element={<GameDetails />} />
           </Routes>
-        </Container>
+        </ContainerStyles>
       </BrowserRouter>
     </>
   );

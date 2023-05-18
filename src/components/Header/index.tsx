@@ -1,11 +1,13 @@
 import logo from "../../assets/img/Vector.svg";
 
+import { HeaderStyles } from "./styles";
+
 const Header = () => {
   return (
-    <header>
+    <HeaderStyles>
       <img src={logo} alt="logomarca lf games" />
       <h1>LF Games</h1>
-    </header>
+    </HeaderStyles>
   );
 };
 

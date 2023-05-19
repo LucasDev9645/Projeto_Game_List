@@ -28,6 +28,7 @@ a {
 
 img {
   max-width:100%;
+   display:block;
 }
 
 body {
@@ -39,7 +40,7 @@ body {
 
 export default GlobalStyles;
 
-export const ContainerStyles = styled.div`
-  max-width: 1440px;
-  margin: 0 auto;
-`;
+// export const ContainerStyles = styled.div`
+//   max-width: 1440px;
+//   margin: 0 auto;
+// `;

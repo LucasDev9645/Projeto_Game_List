@@ -19,7 +19,10 @@ const App = () => {
         <ContainerStyles>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="game-details/:gameId" element={<GameDetails />} />
+            <Route
+              path="/games/:type/game-details/:gameId"
+              element={<GameDetails />}
+            />
             <Route path="games" element={<GameList />}>
               <Route index element={<AllGames />} />
               <Route path="all" element={<AllGames />} />

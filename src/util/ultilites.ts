@@ -7,3 +7,13 @@ export type Gamer = {
   imgUrl: string;
   shortDescription: string;
 };
+
+export type GamerDetails = {
+  id: number;
+  title: string;
+  year: 2012;
+  genre: string;
+  platforms: string;
+  imgUrl: string;
+  shortDescription: string;
+};

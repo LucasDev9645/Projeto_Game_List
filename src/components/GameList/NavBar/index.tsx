@@ -8,7 +8,7 @@ const Navbar = () => {
       <NavBarH1>Nossas Categorias:</NavBarH1>
       <ul>
         <li>
-          <NavLink to="/games/rpg">
+          <NavLink to="/games/all">
             <NavBarP>Todos</NavBarP>
           </NavLink>
         </li>
@@ -18,7 +18,7 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/games/plataforma">
+          <NavLink to="/games/platform">
             <NavBarP>Jogos de Plataforma</NavBarP>
           </NavLink>
         </li>

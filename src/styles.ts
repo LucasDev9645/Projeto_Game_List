@@ -44,3 +44,33 @@ export const ContainerStyles = styled.div`
   max-width: 1440px;
   margin: 0 auto;
 `;
+
+export const CardGame = styled.li`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid var(--background-green-900);
+  text-align: center;
+  width: 180px;
+  height: 290px;
+  border-radius: 10px;
+  padding: 10px;
+
+  img {
+    max-width: 150px;
+    border-radius: 5px;
+  }
+
+  h3 {
+    color: var(--color-green-500);
+    padding: 5px;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  p {
+    color: var(--color-green-500);
+    font-weight: 700;
+    font-size: 14px;
+  }
+`;

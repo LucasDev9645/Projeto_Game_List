@@ -14,7 +14,7 @@ const Home = () => {
           favoritos.
         </HomeH1>
         <HomeP>Clique no botão abaixo e veja nossa coleção de jogos !</HomeP>
-        <Link to="/games">
+        <Link to="/games/all">
           <HomeButton>Ver os Jogos</HomeButton>
         </Link>
       </div>

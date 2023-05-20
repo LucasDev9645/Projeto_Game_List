@@ -51,10 +51,10 @@ export const CardGame = styled.li`
   align-items: center;
   border: 1px solid var(--background-green-900);
   text-align: center;
-  width: 180px;
-  height: 290px;
+  width: 11.25rem;
+  height: 18.125rem;
   border-radius: 10px;
-  padding: 10px;
+  padding: 0.625rem;
 
   img {
     max-width: 150px;
@@ -63,21 +63,21 @@ export const CardGame = styled.li`
 
   h3 {
     color: var(--color-green-500);
-    padding: 5px;
+    padding: 0.3rem;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   p {
     color: var(--color-green-500);
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   @media (max-width: 768px) {
-    width: 220px;
-    height: 330px;
-    padding: 15px;
+    width: 13.75rem;
+    height: 20.625rem;
+    padding: 1rem;
 
     img {
       max-width: 180px;

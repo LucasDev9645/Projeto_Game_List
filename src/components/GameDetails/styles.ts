@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
 export const GameDetailsContainer = styled.div`
-  margin: 30px auto;
+  margin: 1.875rem auto;
   display: flex;
-  max-width: 480px;
+  max-width: 30rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border: 4px solid var(--background-green-900);
   border-radius: 10px;
-  padding: 10px;
+  padding: 0.625rem;
 
   img {
     max-width: 450px;
@@ -24,12 +24,12 @@ export const GameDetailsContainer = styled.div`
 
   h2 {
     text-align: center;
-    font-size: 28px;
+    font-size: 1.75rem;
     margin-bottom: 10px;
   }
 
   p span {
-    font-size: 20px;
+    font-size: 1.5rem;
     color: var(--color-green-500);
     font-weight: 700;
   }
@@ -41,33 +41,33 @@ export const GameDetailsContainer = styled.div`
 
   @media (max-width: 768px) {
     h1 {
-      font-size: 28px;
+      font-size: 1.75rem;
     }
 
     h2 {
-      font-size: 24px;
+      font-size: 1.5rem;
     }
   }
 
   @media (max-width: 568px) {
-    max-width: 300px;
-    margin: 20px auto;
+    max-width: 18.75rem;
+    margin: 1.25rem auto;
     h1 {
       padding-top: 5px;
-      font-size: 22px;
+      font-size: 1.375rem;
     }
 
     h2 {
-      font-size: 20px;
+      font-size: 1.25rem;
       padding-top: 5px;
     }
 
     p span {
-      font-size: 18px;
+      font-size: 1.125rem;
     }
 
     p {
-      font-size: 16px;
+      font-size: 1rem;
     }
   }
 `;
@@ -76,21 +76,17 @@ export const GameDetailsButton = styled.p`
   text-align: right;
   color: var(--color-green-500);
   font-weight: 700;
-  font-size: 32px;
-  padding: 15px;
+  font-size: 2rem;
+  padding: 0.9rem;
   text-decoration: underline;
   cursor: pointer;
 
-  @media (max-width: 992) {
-    font-size: 28px;
-  }
-
-  @media (max-width: 768px) {
-    font-size: 28px;
+  @media (max-width: 992px) {
+    font-size: 1.75rem;
     text-align: center;
   }
 
   @media (max-width: 768px) {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 `;

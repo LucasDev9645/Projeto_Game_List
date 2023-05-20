@@ -9,20 +9,20 @@ export const NavBarContainer = styled.nav`
   }
 
   li {
-    margin: 0 30px;
+    margin: 0 1.875rem;
   }
 
   @media (max-width: 992px) {
     padding: 1rem;
 
     li {
-      margin: 0 25px;
+      margin: 0 1.5rem;
     }
   }
 
   @media (max-width: 768px) {
     li {
-      margin: 0 20px;
+      margin: 0 1.25rem;
     }
   }
 

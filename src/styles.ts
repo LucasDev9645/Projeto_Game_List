@@ -73,4 +73,14 @@ export const CardGame = styled.li`
     font-weight: 700;
     font-size: 14px;
   }
+
+  @media (max-width: 768px) {
+    width: 220px;
+    height: 330px;
+    padding: 15px;
+
+    img {
+      max-width: 180px;
+    }
+  }
 `;

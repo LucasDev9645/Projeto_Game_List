@@ -13,6 +13,7 @@ export const GameDetailsContainer = styled.div`
 
   img {
     max-width: 450px;
+    border-radius: 5px;
   }
 
   h1,
@@ -37,6 +38,38 @@ export const GameDetailsContainer = styled.div`
     margin-bottom: 10px;
     color: var(--color-gray-300);
   }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 28px;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+  }
+
+  @media (max-width: 568px) {
+    max-width: 300px;
+    margin: 20px auto;
+    h1 {
+      padding-top: 5px;
+      font-size: 22px;
+    }
+
+    h2 {
+      font-size: 20px;
+      padding-top: 5px;
+    }
+
+    p span {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
 `;
 
 export const GameDetailsButton = styled.p`
@@ -47,4 +80,17 @@ export const GameDetailsButton = styled.p`
   padding: 15px;
   text-decoration: underline;
   cursor: pointer;
+
+  @media (max-width: 992) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
 `;
